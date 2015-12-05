@@ -1,5 +1,8 @@
 package com.jinloes
 
+import grails.rest.Resource
+
+@Resource
 class PlayerCharacter {
     Integer strength
     Integer dexterity
